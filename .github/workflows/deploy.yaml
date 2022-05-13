@@ -5,7 +5,7 @@ on:
     branches: [master]
 
 jobs:
-  deploy:S
+  deploy:
     name: Deploy to Datalake
     runs-on: ubuntu-latest
 
