@@ -1,5 +1,3 @@
-
-
 resource "aws_s3_bucket" "bucket" {
   bucket = var.base_bucket_name
   acl    = "private"
@@ -19,6 +17,3 @@ resource "aws_s3_bucket" "bucket" {
 
 }
 
-provider "aws" {
-  region = "us-east-2"
-}
